@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.parent-shop{
+    width: 80vw;
+    margin-left: 20vw;
+
+}
+
+.parent-shop h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.product-content {
+    width: 100%;
+}
+
+.product-cards {
+    display: flex;
+    padding: 1.5rem;
+    width: 100%;
+    
+}
+
+.card-img-top{
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.innerCard{
+    border-radius: 2rem;
+    background: #ffffff63;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.purple{
+    background-color: lavender;
+}
+
+.blue{
+    background-color: #daf1ff;
+}
+
+.yellow{
+    background-color: antiquewhite;
+}
+
+.card {
+    height: fit-content;
+    transition: transform .2s;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width:2500px){
+    .parent-shop{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .parent-shop{
+        height: auto;
+    }
+    .card{
+        width: 65%;
+    }
+    .card:hover{
+        transform: none;
+
+    }
+    .product-cards{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+
+    .card-img-top {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card{
+        width: 100%;
+        padding: 13px;
+    }
+    .innerCard{
+        min-height: 120px;
+    }
+    .innerCard img{
+        border-radius: 40%;
+    }
+    .card-body{
+        padding: 10px 0 0 0;
+    }
+    .btn{
+        margin-top: -7px;
+    }
+    .card-title{
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .product-cards{
+        padding: 0.8rem;
+    }
+    .card{
+        width: 100%;
+        padding: 1rem;
+    }
+}

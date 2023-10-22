@@ -1,0 +1,113 @@
+/* Dropdown Menu */
+:root {
+    --bg: #D9D9D9;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --nav-size: 100px;
+    --border: 1px solid #D9D9D9;
+    --border-radius: 1rem;
+    --speed: 500ms; 
+  }
+.dropdown {
+    position: absolute;
+    top: 15vh;
+    width: 200px;
+    transform: translateX(-45%);
+    background-color: var(--bg);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    overflow: hidden;
+    transition: height var(--speed) ease;
+}
+
+.notif-drop {
+    width: 400px;
+    transform: translateX(-100%);
+}
+
+.crdits-drop {
+    width: 300px;
+}
+
+.menu {
+    width: 100%;
+    padding: 0.3rem;
+    max-height: 50vh;
+    overflow-y: scroll;
+    background-color:#D9D9D9 ;
+    border: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.5rem;
+}
+
+.menu-item .icon-button {
+    margin-right: 0.5rem;
+}
+
+.menu-item .icon-button:hover {
+    filter: none;
+}
+
+.menu-item:hover {
+    background-color: red;
+}
+
+.icon-right {
+    margin-left: auto;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+    position: absolute;
+    transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+.menu-primary-exit {
+    position: absolute;
+}
+.menu-primary-exit-active {
+    transform: translateX(-110%);
+    transition: all var(--speed) ease;
+}
+
+.menu-secondary-enter {
+    transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+.menu-secondary-exit-active {
+    transform: translateX(110%);
+    transition: all var(--speed) ease;
+}
+
+.notif-text {
+    color: white;
+}
+
+.notif-ques-link {
+    color: #474a4d;
+}
+
+@media screen and (max-width:426px) {
+    .notif-drop {
+        width: 250px;
+        transform: translateX(-50%);
+    }
+}

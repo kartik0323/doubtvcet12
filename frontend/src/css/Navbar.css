@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Kumbh Sans', sans-serif; */
+}
+
+.navbar-parent{
+    background-color: black;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+
+.stutea-logo{
+    height: 50px;
+
+}
+
+.navbar-links{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+
+}
+
+.nav-item{
+    margin: 0rem;
+
+}
+
+.navbar-item{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 1.7rem 0.5rem;
+    height: 100%;
+    font-weight: 400;
+    margin: 0rem 0.5rem;
+}
+
+.navbar-item:hover,.active{
+    color: white;
+    font-weight: 600;
+    border-bottom: 3px solid white;
+}
+
+
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+
+.btn-login{
+    width: 5rem;
+    background-color: #0d7d46;
+    color: white;
+    cursor: pointer;
+    margin: 0rem 0.6rem;
+    border-radius: 16px;
+    height: 33px;
+    outline: none;
+    border:none;
+    font-weight: 500;
+}
+
+.btn-login:hover{
+    background-color: #ffffff;
+    color: #0d7d46;
+}
+
+.fa-shopping-cart{
+    color:white;
+    height: 100%;
+    padding-left: 1.5rem;
+}
+
+.bars{
+    display: none;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-links{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+        top: 0;
+        right: 0;
+        position: absolute;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 1rem 2rem;
+
+    }
+
+    .navbar-parent{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar-item:hover,.active{
+        color: white;
+        font-weight: 600;
+        border-bottom: none;
+    }
+
+    .top-right{
+        flex-direction: column;
+    }
+
+    .nav-item{
+        margin: 1rem;
+    }
+    .btn-login{
+        margin: 1rem;
+    }
+    
+}
+
+.logo-wrapper-ham{
+    display: none;
+}
+.navbar-links-ham{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.nav-item-list-ham{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+    align-items: center;
+    
+}
+

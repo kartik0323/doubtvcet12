@@ -1,0 +1,103 @@
+.upload-ques{
+    width: 80vw;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 1.2rem 1.2rem;
+}
+
+.upload-ques-heading{
+    font-weight: 700;
+}
+
+.upload-ques-form{
+    width: 100%;
+}
+
+.ques-area,.tags-area{
+    padding: 1rem;
+}
+
+.upload-ques-label,.upload-ques-tags{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.question,.tagString{
+    width: 95%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
+.question{
+    background-color: #FAEAF3;
+}
+
+.tagString{
+    background-color: #E8F7FE;
+}
+
+.submit-btn{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.add-ques-btn{
+    font-weight: 500;
+    width: 5.5rem;
+    border-radius: 3rem;
+    height: 2.5rem;
+    color: black;
+    outline: none;
+    border: none;
+    color:#F2F2F2 ;
+    background-color: black;
+}
+
+.add-ques-btn:hover{
+    color: black;
+    background-color: #F2F2F2;
+    border: 2px solid black;
+}
+
+.instruction{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.img-upload-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.tagString-not{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.btn-upload-img{
+    border: 1px solid black;
+    outline: none;
+    padding: 0.5rem;
+    background-color: black;
+    color:#F2F2F2 ;
+    border-radius: 5px;
+    margin:0rem 1rem;
+}
+
+.btn-upload-img:hover{
+    color: black;
+    font-weight: 500;
+    background-color: #F2F2F2;
+    border: 2px solid black;
+}
+
+.ques-inputs-not{
+    width: 25%;
+}

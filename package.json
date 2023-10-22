@@ -1,0 +1,15 @@
+{
+  "name": "stutea",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r     <img src=\"./frontend/public/readme_logo.png\" style=\"background-color:white\" width=\"100px\">\r     <b> StuTea</b>\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

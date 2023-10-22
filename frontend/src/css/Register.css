@@ -1,0 +1,121 @@
+
+
+.register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 80vw;
+    margin-left: 20vw;
+    
+}
+.rform-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    height: 90%;
+    width: 60%;
+    /* background-color: #FAEAF3; */
+    border-radius: 3rem;
+}
+.register-form-head{
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.rform-label{
+    
+    width: 30%;
+    
+    margin:0.7rem;
+    text-align: end;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.rform-input{
+    
+    width: 70%;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    /* background-color: #233862; */
+    /* color: white; */
+    outline: none;
+    /* border-radius: 10px; */
+}
+
+.rform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rform-div{
+    display: flex;   
+    align-items: center;  
+    justify-content: center;
+    /* margin: 0.2rem; */
+    width: 80%;
+}
+
+@media screen and (max-width:850px) {
+    .rform-div{
+        width: 100%;
+    }
+    .rform-label{
+        display: none;
+    }
+    .rform-head{
+        width: 100%;
+    }
+    .rform-input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .login-pic-reg{
+        width: 40%;
+    }
+    .register-form{
+        flex-direction: column;
+    }
+    .image{
+        align-items: center;
+        justify-content: center;
+        padding-top: 2.5rem;
+        height: 40%;
+        display: flex;
+        width: 100%;
+    }
+    .rform-head{
+        height: 60%;
+        padding: 0.5rem 1rem 1rem 1rem;
+    }
+
+    .register-form-head{
+        padding-top: 1rem;
+    }
+    .rform-input{
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .image{
+        display: none;
+    }
+    .rform-div{
+        margin: 0.2rem;
+    }
+    .rform-head{
+        height: 100%;
+    }
+}

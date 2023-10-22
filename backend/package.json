@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshjohar/stutea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshjohar/stutea/issues"
+  },
+  "homepage": "https://github.com/harshjohar/stutea#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "middleware": "^1.0.0",
+    "mongoose": "^6.0.10",
+    "nodemailer": "^6.7.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
