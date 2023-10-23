@@ -51,7 +51,7 @@ const Login = () => {
       localStorage.setItem("token", json.authtoken);
       history("/");
     } else {
-      // alert("Enter valid credentials");
+      // alert("Enter valid credentials")
       setLoading(false);
       incorrectCredentialsAlert();
     }
