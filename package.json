@@ -1,21 +1,15 @@
 {
-  "name": "stutea",
+  "name": "doubtvcet",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">\r     <img src=\"./frontend/public/readme_logo.png\" style=\"background-color:white\" width=\"100px\">\r     <b> StuTea</b>\r </h1>",
+  "description": "<h1 align=\"center\">\r     <img src=\"./frontend/public/readme_logo.png\" style=\"background-color:white\" width=\"100px\">\r     <b> doubtvcet</b>\r </h1>",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "client": "cd frontend && npm start",
-    "server": "cd backend && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "concurrently": "^6.2.0",
-    "mongoose": "^6.1.2",
-    "react": "^17.0.2",
-    "react-scripts": "4.0.3"
-  }
+  "license": "ISC"
 }
