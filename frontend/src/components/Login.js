@@ -66,7 +66,7 @@ const Login = () => {
         <img className="login-pic" src={image} alt="" />
       </div>
       <div className="form-head">
-        <h2 className="form-title">Welcome to StuTea</h2>
+        <h2 className="form-title">Welcome to DoubtVcet</h2>
         <form onSubmit={handleSubmit} className="form-body">
           <div className="login-form">
             <label htmlFor="" className="form-label">
