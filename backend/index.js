@@ -6,7 +6,7 @@ const { confirmEmail, resendEmail } = require("./routes/confirmation");
 
 connectToMongo();
 const app = express();
-const port = ${host};
+const port = 8000;
 
 // middlewares
 app.use(cors({
