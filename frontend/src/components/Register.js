@@ -78,7 +78,7 @@ const onChange = (e)=> {
                 <img className="login-pic-reg" src={image} alt="" />
             </div>
         <div className="rform-head">
-      <h2 className="register-form-head">Come Join StuTea</h2>
+      <h2 className="register-form-head">Come Join DoubtVcet</h2>
       <form onSubmit={handleSubmit} className="rform">
                 <div className="rform-div">
                     <label htmlFor="username" className="rform-label">Username</label>
