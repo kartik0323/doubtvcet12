@@ -6,7 +6,8 @@ const { confirmEmail, resendEmail } = require("./routes/confirmation");
 
 connectToMongo();
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
+app.listen(); // Let Vercel assign a port
 
 // middlewares
 app.use(cors({
